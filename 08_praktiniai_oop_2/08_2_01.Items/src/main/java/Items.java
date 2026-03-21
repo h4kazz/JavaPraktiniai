@@ -1,0 +1,29 @@
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Items {
+
+    public static void main(String[] args) {
+        // implement here your program that uses the class Item
+
+        ArrayList<Item> items = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.print("Name: ");
+            String name = scanner.nextLine();
+            Item item = new Item(name);
+            if (item.getName() == "") {
+                break;
+            } else {
+                items.add(item);
+            }
+        }
+
+        for (Item name : items) {
+            System.out.println(name.toString());
+        }
+
+    }
+}
