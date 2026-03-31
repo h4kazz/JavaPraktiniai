@@ -1,0 +1,5 @@
+The Great Gatsby,1925,180,F. Scott Fitzgerald
+To Kill a Mockingbird,1960,281,Harper Lee
+1984,1949,328,George Orwell
+Brave New World,1932,311,Aldous Huxley
+Dune,1965,412,Frank Herbert
