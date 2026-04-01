@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"academy.tasks.checkoutstrategy.domain"},{"l":"academy.tasks.checkoutstrategy.service"},{"l":"academy.tasks.checkoutstrategy.strategy.discount"},{"l":"academy.tasks.checkoutstrategy.strategy.shipping"},{"l":"academy.tasks.checkoutstrategy.test"},{"l":"All Packages","u":"allpackages-index.html"}];updateSearchResults();

@@ -1,0 +1,5 @@
+academy.tasks.checkoutstrategy.domain
+academy.tasks.checkoutstrategy.service
+academy.tasks.checkoutstrategy.strategy.discount
+academy.tasks.checkoutstrategy.strategy.shipping
+academy.tasks.checkoutstrategy.test
