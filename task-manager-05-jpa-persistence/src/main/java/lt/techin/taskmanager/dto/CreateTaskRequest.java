@@ -1,0 +1,23 @@
+package lt.techin.taskmanager.dto;
+
+import jakarta.validation.constraints.FutureOrPresent;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
+import java.time.LocalDate;
+
+public record CreateTaskRequest(
+
+        @NotBlank
+        @Size(min = 3, max = 100)
+        String title,
+
+        @Size(max = 1000)
+        String description,
+
+        @NotNull
+        @FutureOrPresent
+        LocalDate dueDate
+) {
+}
